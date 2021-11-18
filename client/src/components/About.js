@@ -19,7 +19,7 @@ const About = () => {
     const callAboutPage = async () => {
         try {
 
-            const res = await fetch('http://localhost:5000/about', {
+            const res = await fetch('https://wastebanktest2.herokuapp.com/about', {
                 method: "GET",
                 headers: {
                     Accept: "application/json",
