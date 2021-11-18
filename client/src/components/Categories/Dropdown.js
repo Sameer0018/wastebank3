@@ -47,7 +47,7 @@ function Dropdown() {
   const userCategorie = async () => {
     try {
 
-      const res = await fetch('http://localhost:5000/getdata', {
+      const res = await fetch('https://wastebanktest2.herokuapp.com/getdata', {
         method: "GET",
         headers: {
           // Accept: "application/json",
