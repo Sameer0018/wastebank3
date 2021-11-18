@@ -13,7 +13,7 @@ function Dropdown() {
   const callCategoriesPage = async () => {
     try {
 
-      const res = await fetch('http://localhost:5000/categories', {
+      const res = await fetch('https://wastebanktest2.herokuapp.com/categories', {
         method: "GET",
         headers: {
           Accept: "application/json",
