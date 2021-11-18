@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.container {
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app-wrapper{
+    background-color: #fff;
+    min-width: 350px;
+    min-height: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.title {
+    color: #218149;
+    text-align: center;
+    margin: 80px opx 40px 0px;
+}
+
+.name,
+.email,
+.password {
+    margin: 8px;
+    margin-top: 25px;
+    color: #969292;
+    font-size: 16px;
+}
+
+.password {
+    margin-bottom: 4px;
+}
+
+.input {
+    height: 32px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+    margin-bottom: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.submit {
+   
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius:25px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(to right, #218149, #34ac62);
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px,
+    rgba(0,0,0,0.22) 0px 15px 12px;
+    margin: auto;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.form-success {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    min-width: 370px;
+    color: #218149;
+}

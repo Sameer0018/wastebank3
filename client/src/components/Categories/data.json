@@ -1,0 +1,129 @@
+
+[
+    {
+      "name": "Ewaste",
+      "country_code": "ew",
+      
+      "languages": [
+        {
+          "name": "battery",
+          "code": "en"
+        },
+        {
+          "name": "cell",
+          "code": "ce"
+        },
+        {
+            "name": "wires",
+            "code": "wi"
+          },
+          {
+            "name": "CFL lights",
+            "code": "cf"
+          }
+      ]
+    },
+    {
+        "name": "Paper",
+        "country_code": "pa",
+        "url": "google.co.in",
+        "languages": [
+          {
+            "name": "Carton",
+            "code": "ca"
+          },
+          {
+            "name": "Newspaper",
+            "code": "ne"
+          },
+          {
+              "name": "Copy",
+              "code": "co"
+            },
+            {
+              "name": "Books",
+              "code": "bo"
+            }
+        ]
+    },
+    {
+      "name": "Kitchen",
+      "country_code": "ki",
+      "url": "google.ae",
+      "languages": [
+        {
+          "name": "Vegetable",
+          "code": "ve"
+        },
+        {
+          "name": "Left over food",
+          "code": "le"
+        }
+      ]
+    },
+    {
+        "name": "Plastic",
+        "country_code": "pl",
+        "url": "google.ae",
+        "languages": [
+          {
+            "name": "plastic bottle",
+            "code": "pl"
+          },
+          {
+            "name": "mix plastic",
+            "code": "mi"
+          },
+          {
+            "name": "packaging plastic",
+            "code": "pp"
+          }
+        ]
+      },
+      {
+        "name": "Metal",
+        "country_code": "me",
+        "url": "google.ae",
+        "languages": [
+          {
+            "name": "Steel",
+            "code": "st"
+          },
+          {
+            "name": "Iron",
+            "code": "ir"
+          },
+          {
+            "name": "Aluminium",
+            "code": "al"
+          },
+          {
+            "name": "Copper",
+            "code": "co"
+          },
+          {
+            "name": "Brass",
+            "code": "al"
+          },
+          {
+            "name": "Utensils",
+            "code": "ut"
+          }
+        ]
+      },
+      {
+        "name": "Medical",
+        "country_code": "md",
+        "url": "google.ae",
+        "languages": [
+          {
+            "name": "Sanitary pad",
+            "code": "sa"
+          },
+          {
+            "name": "Diapers",
+            "code": "di"
+          }
+        ]
+      }
+  ]

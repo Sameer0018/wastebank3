@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+  body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.catbody{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.catbody .catformcont{
+    max-width: 700px;
+    width: 100%;
+    background-color: green;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.catbody .catformcont form .catuser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.catbody .catformcont form .catuser .catinputformbox{
+    margin-bottom: 25px;
+    width: calc(100% / 2 - 20px);
+    /* border: 1px solid cyan; */
+
+}
+.catbody .catformcont form .catuser .catinputformbox .catuserdetails{
+    font-size: 20px;
+    display: block;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.catbody .catformcont form .catuser .catinputformbox input,select{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid green;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
+.catbody .catformcont form .catformbtn{
+    height:45px;
+    margin: 45px 0;
+}
+.catbody .catformcont form .catformbtn input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    /* font-family: monospace; */
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    outline: none;
+}
+@media (max-width:584px) {
+    .catbody .catformcont{
+        max-width: 100%;
+    }
+    
+    .catbody .catformcont form .catuser .catinputformbox{
+        margin-bottom: 25px;
+        width:100%;
+   
+    
+    }
+   
+
+}
