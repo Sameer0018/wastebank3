@@ -90,7 +90,7 @@ const Signup = () => {
 
                    <div className="name">
                         <label className="label">Number</label>
-                        <input className="input" type="number" name="phone" value={user.phone} onChange={handleInputs} />
+                        <input className="input" type="tel" name="phone" value={user.phone} onChange={handleInputs} />
                         {errors.phone && <p className="error">{errors.phone}</p>}
                     </div>
 
