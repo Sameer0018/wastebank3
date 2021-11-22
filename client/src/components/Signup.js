@@ -46,7 +46,7 @@ const Signup = () => {
             console.log(res);
         } catch (error) {
             if (error.response.status = 422) {
-                alert('invaild detail')
+                alert('Already Registered')
             } else {
                 alert('server error')
             }
@@ -88,7 +88,7 @@ const Signup = () => {
                         {errors.email && <p className="error">{errors.email}</p>}
                     </div>
 
-                    <div className="name">
+                   <div className="name">
                         <label className="label">Number</label>
                         <input className="input" type="number" name="phone" value={user.phone} onChange={handleInputs} />
                         {errors.phone && <p className="error">{errors.phone}</p>}
