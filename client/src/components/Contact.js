@@ -97,10 +97,10 @@ const Contact = () => {
                                     Gwalior Smart City Office, Moti Mahal Gwalior - 474007, India</p>
                             </div>
                             <div className="information">
-                                <p>dreamhatcher@gwaliorsmartcity.org</p>
+                                <p></p>
                             </div>
                             <div className="information">
-                                <p> +91 7512930224, +91 9993555559</p>
+                                <p>  </p>
                             </div>
                         </div>
 
