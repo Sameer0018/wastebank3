@@ -93,8 +93,8 @@ const Contact = () => {
 
                         <div className="info">
                             <div className="information">
-                                <p> Dream Hatcher Incubation Center,
-                                    Gwalior Smart City Office, Moti Mahal Gwalior - 474007, India</p>
+                                <p> Flub- Waste Bank, Dream Hatcher Incubation Center,
+                                    Gwalior Smart City Office, Moti Mahal, Gwalior - 474007, India</p>
                             </div>
                             <div className="information">
                                 <p></p>
