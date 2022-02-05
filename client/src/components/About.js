@@ -77,7 +77,7 @@ const About = () => {
             
     <div class="profile-container">
               <h4>Earned Coins</h4>
-              <p>{userData.coins}</p>
+             
             </div>
 
            
