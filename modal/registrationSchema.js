@@ -23,10 +23,6 @@ const registrationSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-      coins: {
-        type: Number,
-        required: true
-    },
        
     date: {
         type: Date,
