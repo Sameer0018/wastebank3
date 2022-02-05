@@ -74,14 +74,10 @@ const About = () => {
               <h4>Email</h4>
               <p>{userData.email}</p>
             </div>
-            {/* <div class="profile-container">
-              <h4>ID</h4>
-              <p>00011kj5585658545454657979hn</p>
-            </div> */}
             
-            <div class="profile-container">
+    <div class="profile-container">
               <h4>Earned Coins</h4>
-              <p>0</p>
+              <p>{userData.coins}</p>
             </div>
 
            
